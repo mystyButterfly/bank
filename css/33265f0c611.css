@@ -1,0 +1,154 @@
+.dropdown {
+  position: relative;
+  min-width: 150px;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: white;
+}
+
+.dropdown-header {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 8px;
+}
+
+.dropdown-selected {
+  flex-grow: 1;
+}
+
+.dropdown-list {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  z-index: 1000;
+}
+
+.dropdown-option {
+  padding: 8px;
+  cursor: pointer;
+}
+
+.dropdown-option:hover {
+  background-color: #f0f0f0;
+}
+
+.transfer{
+  padding: 30px;
+  width: 100%;
+}
+.transfer p{
+  color: grey;
+}
+.transfer-container{
+  padding: 20px 0;
+  border-top: 1px solid rgba(128, 128, 128, 0.507);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.transfer-container input{
+  width: 50%;
+  height: fit-content;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid rgba(128, 128, 128, 0.646)
+}
+.transfer-container>div{
+  width: 40%;
+}
+.transfer-dropdown{
+  display:flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.transfer-dropdown span{
+ padding-right: 5px;
+}
+.transfer-dropdown-mycard{
+  width: fit-content;
+}
+.transfer-dropdown-mycard .dropdown{
+  display: flex;
+  padding: 3px;
+  min-width: 50px;
+  width: fit-content;
+}
+.transfer-c-mybanks{
+  display: flex;
+  align-items: center;
+  width: min-content;
+}
+.transfer-c-mybanks p{
+  width: fit-content;
+}
+
+
+.error-message {
+  background-color: #ff7676;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  position: fixed;
+  top: 20px;
+  right: 50px;
+}
+
+.success-message {
+  background-color: #81dc84fe;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+  position: fixed;
+  top: 20px;
+  right: 50px;
+}
+
+.transfer-btn {
+  background-color: #1E90FF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  margin-inline: auto;
+}
+.transfer-btn-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.transfer-btn:hover {
+  background-color: #1C86EE;
+}
+.disable:hover {
+  background-color: grey;
+  color: rgba(0, 0, 0, 0.658);
+}
+
+.transfer-btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(30, 144, 255, 0.5);
+}
+.disable{
+  background-color: grey;
+  transition: color 0.3s ease;
+}
