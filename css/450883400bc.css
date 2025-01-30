@@ -1,0 +1,68 @@
+.myBanks{
+  padding: 10px 30px;
+  height: 100vh;
+}
+
+.myBanks .notscrol>p{
+  color: gray;
+  font-size: 1.1rem;
+  margin: 10px 0 10px 0;
+}
+.myBanks h3{
+  margin-bottom: 20px;
+}
+.myBanks .notscrol{
+  height: 20%; 
+}
+.mybanks-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 80%;
+  overflow-y: auto;
+}
+.cart{
+  background-color: rgb(165, 94, 0);
+  border-radius: 10px;
+  padding: 10px;
+  width: 68mm;
+  height: 43mm;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-size: 0.8rem;
+}
+.cart h3{
+  width: 100%;
+  font-size: 1.3rem;
+}
+.cart-left{
+  display: grid;
+  grid-template-rows: auto 30px 30px;
+  width: 100%;
+}
+.cart-left p{
+  font-size: 1.1rem;
+}
+
+.cart-name{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.2rem;
+}
+.cart-right{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 20%;
+}
+.cart-right :first-child{
+  width: 20px;
+  margin-inline: auto;
+}
+.cart-right :last-child{
+  margin-inline: auto;
+}
