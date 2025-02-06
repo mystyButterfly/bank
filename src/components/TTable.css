@@ -1,0 +1,13 @@
+.transaction-table th,.transaction-table td {
+  text-align: center;
+  padding: 10px;
+}
+.transaction-table thead {
+  background-color: rgba(226, 224, 224, 0.573);
+}
+.transaction-table table{
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 10px;
+  overflow: hidden;
+}

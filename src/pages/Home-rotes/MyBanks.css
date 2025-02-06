@@ -1,0 +1,24 @@
+.myBanks{
+  padding: 10px 30px;
+  height: 100vh;
+}
+
+.myBanks .notscrol>p{
+  color: gray;
+  font-size: 1.1rem;
+  margin: 10px 0 10px 0;
+}
+.myBanks h3{
+  margin-bottom: 20px;
+}
+.myBanks .notscrol{
+  height: 20%; 
+}
+.mybanks-flex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-height: 80%;
+  overflow-y: auto;
+}
