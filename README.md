@@ -1,6 +1,6 @@
-#About the Bank Simulation App
+# About the Bank Simulation App
 
-This project is created using the following technologies
+## This project is created using the following technologies
 
     React
     TypeScript
